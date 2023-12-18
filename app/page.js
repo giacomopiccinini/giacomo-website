@@ -43,16 +43,16 @@ export default function Home() {
       </div>
       {/* EXPERIENCE */}
       <div id="experience" className="flex flex-col items-center">
-        <h1 className="text-4xl font-bold mb-16 mt-24">EXPERIENCE</h1>
+        <h1 className="text-4xl font-bold mb-12 md:mb-16 mt-12 md:mt-24">EXPERIENCE</h1>
       </div>
       <Timeline />
       {/* TECH */}
       <div id="tech" className="flex flex-col items-center">
-        <h1 className="text-4xl font-bold mb-16 mt-24">TECH STACK</h1>
+        <h1 className="text-4xl font-bold mb-12 md:mb-16 mt-12 md:mt-24">TECH STACK</h1>
       </div>
       <Tech />
       <div id="art" className="flex flex-col items-center">
-        <h1 className="text-4xl font-bold mb-16 mt-24">ART</h1>
+        <h1 className="text-4xl font-bold mb-12 md:mb-16 mt-12 md:mt-24">ART</h1>
       </div>
       <Art />
       <Footer />

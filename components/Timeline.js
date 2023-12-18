@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Timeline() {
   return (
-    <div className="flex justify-center py-10">
+    <div className="flex justify-center">
       <div className="relative flex flex-col max-w-6xl w-full">
 
         {/* Conditional Rendering of Central Line based on screen size */}
