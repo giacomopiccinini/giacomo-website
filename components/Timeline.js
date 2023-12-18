@@ -11,22 +11,22 @@ export default function Timeline() {
         {/* Items */}
         {[
               {
-                date: "February 2022",
+                date: "February 2022 - Present",
                 title: "Machine Learning Engineer at Gemmo AI",
                 desc: "Responsible for the entire AI pipeline, from dataset creation to Machine/Deep Learning models development and cloud deployment."
               },
               {
-                date: "June 2022",
+                date: "September 2018 - June 2022",
                 title: "Ph.D. in String Theory",
                 desc: "Researcher on aspects of Classical Integrability and Duality in String Theory."
               },
               {
-                date: "April 2018",
+                date: "September 2015 - April 2018",
                 title: "Master's Degree in Theoretical Physics",
                 desc: "Dissertation on Superconformal Quantum Mechanics. Final Grade: 110/110 cum laude"
               },
               {
-                date: "December 2015",
+                date: "September 2012 - December 2015",
                 title: "Bachelor's Degree in Physics",
                 desc: "Dissertation on Newton-Cartan Geometry. Final Grade: 110/110 cum laude"
               }

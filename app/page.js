@@ -20,8 +20,7 @@ export default function Home() {
         </p>
       </div>
       {/* ABOUT ME */}
-      <div id="about" className="flex flex-col items-center w-full">
-      {/* </div><div id="about" className="flex flex-col items-center"> */}    
+      <div id="about" className="flex flex-col items-center w-full">   
         <h1 className="text-4xl font-bold mb-16">HEY!</h1>
         <div className="flex flex-col md:flex-row items-center items-start max-w-5xl w-full">
           <div className="md:w-1/2 w-full mb-4 md:mb-0 md:pr-8">
@@ -33,7 +32,6 @@ export default function Home() {
               className="rounded w-full h-auto"
             />
           </div>
-          {/* <div className="w-1/2 border-l pl-8 space-y-6 text-gray-400"> */}
           <div className="md:w-1/2 w-full md:border-l md:pl-8 space-y-6 text-gray-400">
             <p>I am Giacomo, a Machine Learning engineer specialising in Vision and Audio.</p>
             <p> Currently, I am working (remotely from Italy) at&nbsp;
