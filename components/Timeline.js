@@ -1,15 +1,15 @@
-import React from "react";
+import React from "react"; 
 
 export default function Timeline() {
-    return (
-      <div className="flex justify-center py-10">
-        <div className="relative flex flex-col max-w-6xl">
-  
-          {/* Central Line */}
-          <div className="absolute left-1/2 transform border-l border-white h-full"></div>
-  
-          {/* Timeline Items */}
-          {[
+  return (
+    <div className="flex justify-center py-10">
+      <div className="relative flex flex-col max-w-6xl w-full">
+
+        {/* Conditional Rendering of Central Line based on screen size */}
+        <div className="absolute hidden md:block left-1/2 transform -translate-x-1/2 border-l border-white h-full"></div>
+
+        {/* Items */}
+        {[
               {
                 date: "February 2022",
                 title: "Machine Learning Engineer at Gemmo AI",
@@ -29,21 +29,22 @@ export default function Timeline() {
                 date: "December 2015",
                 title: "Bachelor's Degree in Physics",
                 desc: "Dissertation on Newton-Cartan Geometry. Final Grade: 110/110 cum laude"
-              },
-          ].map((item, index) => (
-            <div key={index} className="flex mb-10">
-              <div className="flex-1 text-right pr-10 text-xl">
-                {item.date}
-              </div>
-              <div className="flex-1 pl-10">
-                <p className="text-xl">{item.title}</p>
-                <p className="text-gray-400">{item.desc}</p>
-              </div>
+              }
+        ].map((item, index) => (
+          <div key={index} className="flex flex-col md:flex-row mb-10">
+            <div className="flex-1 md:text-right mb-4 md:mb-0 md:pr-10 text-xl text-center md:text-right">
+              {item.date}
             </div>
-          ))}
-  
-        </div>
+            {/* Mobile Line */}
+            <div className="md:hidden border-t border-white w-full my-2"></div>
+            <div className="flex-1 md:pl-10">
+              <p className="text-xl">{item.title}</p>
+              <p className="text-gray-400">{item.desc}</p>
+            </div>
+          </div>
+        ))}
+
       </div>
-    );
-  }
-  
+    </div>
+  );
+}
