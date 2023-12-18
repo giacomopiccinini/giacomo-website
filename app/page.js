@@ -23,8 +23,8 @@ export default function Home() {
       <div id="about" className="flex flex-col items-center w-full">
       {/* </div><div id="about" className="flex flex-col items-center"> */}    
         <h1 className="text-4xl font-bold mb-16">HEY!</h1>
-        <div className="flex flex-col md:flex-row items-start max-w-5xl w-full">
-          <div className="md:w-1/2 w-full mb-4 md:mb-0 md:pr-8 mt-6">
+        <div className="flex flex-col md:flex-row items-center items-start max-w-5xl w-full">
+          <div className="md:w-1/2 w-full mb-4 md:mb-0 md:pr-8">
             <Image
               src="/images/boat.jpg"
               alt="Portrait"
