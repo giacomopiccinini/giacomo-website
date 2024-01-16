@@ -11,7 +11,12 @@ export default function Timeline() {
         {/* Items */}
         {[
               {
-                date: "February 2022 - Present",
+                date: "January 2024 - Present",
+                title: "CTO at Gemmo AI",
+                desc: "Supervision of technical team, development of bespoke AI solutions."
+              },
+              {
+                date: "February 2022 - December 2023",
                 title: "Machine Learning Engineer at Gemmo AI",
                 desc: "Responsible for the entire AI pipeline, from dataset creation to Machine/Deep Learning models development and cloud deployment."
               },

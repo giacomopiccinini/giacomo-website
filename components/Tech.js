@@ -24,7 +24,7 @@ export default function Tech() {
               },
               {
                 title: "Tools",
-                desc: "Docker, NeonDB, Git"
+                desc: "Docker, NeonDB, CockroachDB, Git"
               }
         ].map((item, index) => (
           <div key={index} className="flex flex-col md:flex-row mb-10">

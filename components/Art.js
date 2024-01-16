@@ -19,6 +19,14 @@ export default function Art() {
           Find some pencil drawings on my <Link href="https://www.instagram.com/giacomo_piccinini_/" className="text-white hover:text-purple-400">Instagram</Link> 
         </>
       )
+    },
+    {
+      title: "Photography",
+      desc: (
+        <>
+          Currently in the making, probably appearing here soon!
+        </>
+      )
     }
   ];
 

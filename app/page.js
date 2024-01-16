@@ -34,7 +34,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 w-full md:border-l md:pl-8 space-y-6 text-gray-400">
             <p>I am Giacomo, a Machine Learning engineer specialising in Vision and Audio.</p>
-            <p> Currently, I am working (remotely from Italy) at&nbsp;
+            <p> Currently, I am the CTO at&nbsp;
               <Link href="https://gemmo.ai/" className="text-white hover:text-purple-400">Gemmo AI</Link>, a Dublin-based start-up that provides bespoke Deep Learning solutions.</p>
             <p>In my previous life I was a Ph.D. student in String Theory at Swansea University (Wales).</p>
             <p>In my spare time, I am trying to develop tools for leveraging Deep Learning to tackle what I believe are interesting problems in the artistic aspects of Vision and Audio.</p>
